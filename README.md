@@ -38,3 +38,10 @@ Build a machine learning regression model to predict **car selling price** using
 
 ## Tools Used
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
+
+## EDA Insights
+- Selling price is right-skewed, with most cars priced in the lower range.
+- Present price has a strong positive relationship with selling price.
+- Cars with higher kilometers driven tend to have lower selling prices.
+- Newer cars generally have higher selling prices.
+- Owner count has a mild negative impact on selling price.
