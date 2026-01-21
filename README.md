@@ -73,4 +73,9 @@ After installing requirements, you can run:
 
 python src/predict.py
 
+## Model Comparison (Test Set)
+
+![Model comparison table](reports/figures/model_comparison.png)
+
+
 
