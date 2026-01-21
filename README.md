@@ -45,3 +45,32 @@ Python, Pandas, NumPy, Scikit-learn, Matplotlib
 - Cars with higher kilometers driven tend to have lower selling prices.
 - Newer cars generally have higher selling prices.
 - Owner count has a mild negative impact on selling price.
+
+## Model Selection & Final Result
+
+Three regression models were trained and evaluated:
+
+- Linear Regression (baseline)
+- Decision Tree Regressor
+- Random Forest Regressor
+
+### Why Random Forest was selected
+- Lowest MAE (0.59) → most accurate predictions
+- Lowest RMSE (0.91) → fewer large errors
+- Highest R² (0.96) → explains 96% of price variance
+- Ensemble method reduces overfitting compared to a single tree
+
+The Random Forest Regressor was selected as the final model.
+
+## Real-World Application
+This project demonstrates how machine learning can support **used car price estimation** for:
+- Online car resale platforms
+- Car dealerships (trade-in pricing)
+- Individuals estimating fair resale value
+
+## How to Run a Prediction
+After installing requirements, you can run:
+
+python src/predict.py
+
+
